@@ -1,0 +1,11 @@
+div.topicGroupCard-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 580px) {
+    .topicGroupCard-list {
+        display: block;
+    }
+}
